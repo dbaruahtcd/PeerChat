@@ -17,7 +17,7 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONValue;
 
 
-public class Peer {
+public class PeerInfo {
 	
 	
 	private String ipAddress;

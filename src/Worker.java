@@ -13,7 +13,7 @@ import org.json.simple.parser.JSONParser;
 
 
 
-public  class PeerWorker implements Runnable, PeerChat{
+public  class Worker implements Runnable, PeerChat{
 
 	private Socket socket;
 	private Peer peer;

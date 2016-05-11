@@ -1,7 +1,3 @@
-/*
- * User interface.
- */
-
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,7 +7,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import org.json.simple.JSONValue;
 
-public class PeerUI extends Thread{
+public class PeerInterface extends Thread{
 	
 	private Peer peer;
 	private BufferedReader reader;
